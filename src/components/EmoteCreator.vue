@@ -68,7 +68,6 @@ async function draw() {
     ctx.restore()
 
     downloadUrl.value = canvas.toDataURL("image/png")
-    fileName.value = createFileName()
   } catch (e) {
     console.error(e)
   } finally {
